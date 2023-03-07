@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <div id="container">
+        <div>
+            <h1 class="Calculadora"> <strong>Calculadora de Gorjetas </strong></h1>
+        </div>
+        <hr>
+        
+        <div>
+            <form class="tipsForm" id="tipsForm">
+                <label for="bill">
+                    <p>Quanto ficou a conta?</p>
+                </label>
+
+                <p>R$: <input type="number" placeholder="100" nome="bill" id="bill" class="formInput" required>
+                </p>
+                
+                <label for="qualidade">
+                    <p>Como foi o atendimento?</p>
+                </label>
+
+                <p>
+                <select name="qualidade" id="qualidade" class="formSelectt">
+                    <option disabled selected value="0">--Escolha uma opção</option>
+                    <option value="0.3">30% - Exelente</option>
+                    <option value="0.2">20% - Bom</option>
+                    <option value="0.15">15% - Regular</option>
+                    <option value="0.07">07% - Ruim</option>
+                    <option value="0.02">02% - Péssimo</option>
+                </select>
+            </p>
+
+            <label for="people">
+                <p>Quantas pessoas vão dividir a conta?</p>
+            </label>
+            <p>
+                <input type="number" placeholder="1" name="people" id="people" class="formInput" required> Pessoa(s) 
+            </p>
+
+            <button type="submit" class="formSubmit"><b>Calcular</b></button>
+            </form>
+        </div>
+
+            <div id="total">
+                Gorjeta:
+                R$: <span id="tip">0.00</span>
+                <p id="each">Cada</p>
+            </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

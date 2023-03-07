@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display&family=Smokum&display=swap');
+
+body{
+    background-color: rgba(4, 10, 15, 0.39);
+    font-size: 15px; 
+    font-family: 'Playfair Display', serif; 
+ }
+
+ #container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: linear-gradient(68deg, rgba(226, 3, 3, 0.356) 10%, rgba(255, 238, 0, 0.219) 95%);
+    box-shadow: 0 2px 1px 3px rgb(98, 0, 128);
+    border-radius: 20px;
+ }
+
+ .Calculadora{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: rgb(32, 32, 24);
+    text-transform: uppercase;
+    padding-top: 12px;
+    font-size: 24px;
+    
+ }
+
+ .title{
+    background: rgb(111, 170, 2);
+    color: blue;
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+ }
+
+.tipsForm{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ 
+.formInput{
+    background: rgb(236, 236, 236);
+    width: 60px;
+    padding: 2px 3px 2px 3px;
+}
+
+.formInput:focus {
+    border: 3px solid rgb(185, 80, 255);
+    outline: name;
+}
+
+.formSelect{
+    width: 190px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.formSelect:focus {
+    border: 3px solid rgb(185, 80, 255);
+    outline: name;
+}
+
+.formSubmit{
+    text-transform: uppercase;
+    font-weight: 400px;
+    display: block;
+    margin: 30px auto;
+    background: linear-gradient(68deg, rgba(2, 125, 240, 0.678) 10%, rgba(255, 0, 64, 0.596) 95%);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 19px;
+    box-shadow: 0 0px 0px 2px rgb(0, 128, 111);
+}
+
+#total{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+
